@@ -1,0 +1,363 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:39:19 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Mon Aug 24 14:40:25 2020
+# Process ID: 383
+# Current directory: /home/ezequiel/Documentos/FPGA/FPGA2Microarqysoftcore/TP_EURDANIZ/proyecto/project_core_detector/project_core_detector.runs/system_core_detector_ip_0_0_synth_1
+# Command line: vivado -log system_core_detector_ip_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source system_core_detector_ip_0_0.tcl
+# Log file: /home/ezequiel/Documentos/FPGA/FPGA2Microarqysoftcore/TP_EURDANIZ/proyecto/project_core_detector/project_core_detector.runs/system_core_detector_ip_0_0_synth_1/system_core_detector_ip_0_0.vds
+# Journal file: /home/ezequiel/Documentos/FPGA/FPGA2Microarqysoftcore/TP_EURDANIZ/proyecto/project_core_detector/project_core_detector.runs/system_core_detector_ip_0_0_synth_1/vivado.jou
+#-----------------------------------------------------------
+source system_core_detector_ip_0_0.tcl -notrace
+Command: synth_design -top system_core_detector_ip_0_0 -part xc7z010clg400-1 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 555 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 1313.281 ; gain = 86.000 ; free physical = 812 ; free virtual = 6105
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'system_core_detector_ip_0_0' [/home/ezequiel/Documentos/FPGA/FPGA2Microarqysoftcore/TP_EURDANIZ/proyecto/project_core_detector/project_core_detector.srcs/sources_1/bd/system/ip/system_core_detector_ip_0_0/synth/system_core_detector_ip_0_0.vhd:86]
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 4 - type: integer 
+INFO: [Synth 8-3491] module 'core_detector_ip_v1_0' declared at '/home/ezequiel/Documentos/FPGA/FPGA2Microarqysoftcore/TP_EURDANIZ/proyecto/project_core_detector/project_core_detector.srcs/sources_1/bd/system/ipshared/f775/hdl/core_detector_ip_v1_0.vhd:5' bound to instance 'U0' of component 'core_detector_ip_v1_0' [/home/ezequiel/Documentos/FPGA/FPGA2Microarqysoftcore/TP_EURDANIZ/proyecto/project_core_detector/project_core_detector.srcs/sources_1/bd/system/ip/system_core_detector_ip_0_0/synth/system_core_detector_ip_0_0.vhd:154]
+INFO: [Synth 8-638] synthesizing module 'core_detector_ip_v1_0' [/home/ezequiel/Documentos/FPGA/FPGA2Microarqysoftcore/TP_EURDANIZ/proyecto/project_core_detector/project_core_detector.srcs/sources_1/bd/system/ipshared/f775/hdl/core_detector_ip_v1_0.vhd:56]
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 4 - type: integer 
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 4 - type: integer 
+INFO: [Synth 8-3491] module 'core_detector_ip_v1_0_S_AXI' declared at '/home/ezequiel/Documentos/FPGA/FPGA2Microarqysoftcore/TP_EURDANIZ/proyecto/project_core_detector/project_core_detector.srcs/sources_1/bd/system/ipshared/f775/hdl/core_detector_ip_v1_0_S_AXI.vhd:5' bound to instance 'core_detector_ip_v1_0_S_AXI_inst' of component 'core_detector_ip_v1_0_S_AXI' [/home/ezequiel/Documentos/FPGA/FPGA2Microarqysoftcore/TP_EURDANIZ/proyecto/project_core_detector/project_core_detector.srcs/sources_1/bd/system/ipshared/f775/hdl/core_detector_ip_v1_0.vhd:99]
+INFO: [Synth 8-638] synthesizing module 'core_detector_ip_v1_0_S_AXI' [/home/ezequiel/Documentos/FPGA/FPGA2Microarqysoftcore/TP_EURDANIZ/proyecto/project_core_detector/project_core_detector.srcs/sources_1/bd/system/ipshared/f775/hdl/core_detector_ip_v1_0_S_AXI.vhd:92]
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 4 - type: integer 
+INFO: [Synth 8-226] default block is never used [/home/ezequiel/Documentos/FPGA/FPGA2Microarqysoftcore/TP_EURDANIZ/proyecto/project_core_detector/project_core_detector.srcs/sources_1/bd/system/ipshared/f775/hdl/core_detector_ip_v1_0_S_AXI.vhd:249]
+INFO: [Synth 8-226] default block is never used [/home/ezequiel/Documentos/FPGA/FPGA2Microarqysoftcore/TP_EURDANIZ/proyecto/project_core_detector/project_core_detector.srcs/sources_1/bd/system/ipshared/f775/hdl/core_detector_ip_v1_0_S_AXI.vhd:379]
+INFO: [Synth 8-3491] module 'core_detector' declared at '/home/ezequiel/Documentos/FPGA/FPGA2Microarqysoftcore/TP_EURDANIZ/proyecto/project_core_detector/project_core_detector.srcs/sources_1/bd/system/ipshared/f775/src/core_detector.vhd:9' bound to instance 'inst_detec' of component 'core_detector' [/home/ezequiel/Documentos/FPGA/FPGA2Microarqysoftcore/TP_EURDANIZ/proyecto/project_core_detector/project_core_detector.srcs/sources_1/bd/system/ipshared/f775/hdl/core_detector_ip_v1_0_S_AXI.vhd:413]
+INFO: [Synth 8-638] synthesizing module 'core_detector' [/home/ezequiel/Documentos/FPGA/FPGA2Microarqysoftcore/TP_EURDANIZ/proyecto/project_core_detector/project_core_detector.srcs/sources_1/bd/system/ipshared/f775/src/core_detector.vhd:22]
+INFO: [Synth 8-256] done synthesizing module 'core_detector' (1#1) [/home/ezequiel/Documentos/FPGA/FPGA2Microarqysoftcore/TP_EURDANIZ/proyecto/project_core_detector/project_core_detector.srcs/sources_1/bd/system/ipshared/f775/src/core_detector.vhd:22]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg0_reg was removed.  [/home/ezequiel/Documentos/FPGA/FPGA2Microarqysoftcore/TP_EURDANIZ/proyecto/project_core_detector/project_core_detector.srcs/sources_1/bd/system/ipshared/f775/hdl/core_detector_ip_v1_0_S_AXI.vhd:242]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg1_reg was removed.  [/home/ezequiel/Documentos/FPGA/FPGA2Microarqysoftcore/TP_EURDANIZ/proyecto/project_core_detector/project_core_detector.srcs/sources_1/bd/system/ipshared/f775/hdl/core_detector_ip_v1_0_S_AXI.vhd:243]
+WARNING: [Synth 8-6014] Unused sequential element loc_addr_reg was removed.  [/home/ezequiel/Documentos/FPGA/FPGA2Microarqysoftcore/TP_EURDANIZ/proyecto/project_core_detector/project_core_detector.srcs/sources_1/bd/system/ipshared/f775/hdl/core_detector_ip_v1_0_S_AXI.vhd:247]
+INFO: [Synth 8-256] done synthesizing module 'core_detector_ip_v1_0_S_AXI' (2#1) [/home/ezequiel/Documentos/FPGA/FPGA2Microarqysoftcore/TP_EURDANIZ/proyecto/project_core_detector/project_core_detector.srcs/sources_1/bd/system/ipshared/f775/hdl/core_detector_ip_v1_0_S_AXI.vhd:92]
+INFO: [Synth 8-256] done synthesizing module 'core_detector_ip_v1_0' (3#1) [/home/ezequiel/Documentos/FPGA/FPGA2Microarqysoftcore/TP_EURDANIZ/proyecto/project_core_detector/project_core_detector.srcs/sources_1/bd/system/ipshared/f775/hdl/core_detector_ip_v1_0.vhd:56]
+INFO: [Synth 8-256] done synthesizing module 'system_core_detector_ip_0_0' (4#1) [/home/ezequiel/Documentos/FPGA/FPGA2Microarqysoftcore/TP_EURDANIZ/proyecto/project_core_detector/project_core_detector.srcs/sources_1/bd/system/ip/system_core_detector_ip_0_0/synth/system_core_detector_ip_0_0.vhd:86]
+WARNING: [Synth 8-3331] design core_detector_ip_v1_0_S_AXI has unconnected port S_AXI_AWPROT[2]
+WARNING: [Synth 8-3331] design core_detector_ip_v1_0_S_AXI has unconnected port S_AXI_AWPROT[1]
+WARNING: [Synth 8-3331] design core_detector_ip_v1_0_S_AXI has unconnected port S_AXI_AWPROT[0]
+WARNING: [Synth 8-3331] design core_detector_ip_v1_0_S_AXI has unconnected port S_AXI_ARPROT[2]
+WARNING: [Synth 8-3331] design core_detector_ip_v1_0_S_AXI has unconnected port S_AXI_ARPROT[1]
+WARNING: [Synth 8-3331] design core_detector_ip_v1_0_S_AXI has unconnected port S_AXI_ARPROT[0]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 1357.891 ; gain = 130.609 ; free physical = 778 ; free virtual = 6072
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 1357.891 ; gain = 130.609 ; free physical = 774 ; free virtual = 6069
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 1357.891 ; gain = 130.609 ; free physical = 774 ; free virtual = 6069
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.03 ; elapsed = 00:00:00.05 . Memory (MB): peak = 1660.504 ; gain = 0.000 ; free physical = 359 ; free virtual = 5670
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:33 ; elapsed = 00:00:47 . Memory (MB): peak = 1660.504 ; gain = 433.223 ; free physical = 456 ; free virtual = 5769
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z010clg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:33 ; elapsed = 00:00:47 . Memory (MB): peak = 1660.504 ; gain = 433.223 ; free physical = 456 ; free virtual = 5769
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:33 ; elapsed = 00:00:47 . Memory (MB): peak = 1660.504 ; gain = 433.223 ; free physical = 458 ; free virtual = 5771
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [/home/ezequiel/Documentos/FPGA/FPGA2Microarqysoftcore/TP_EURDANIZ/proyecto/project_core_detector/project_core_detector.srcs/sources_1/bd/system/ipshared/f775/src/core_detector.vhd:86]
+INFO: [Synth 8-5544] ROM "sig_detec_o" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "fail_o" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "time_espera" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "estado_siguiente" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "contador_sig_1" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+WARNING: [Synth 8-327] inferring latch for variable 'contador_sig_2_reg' [/home/ezequiel/Documentos/FPGA/FPGA2Microarqysoftcore/TP_EURDANIZ/proyecto/project_core_detector/project_core_detector.srcs/sources_1/bd/system/ipshared/f775/src/core_detector.vhd:88]
+WARNING: [Synth 8-327] inferring latch for variable 'contador_sig_1_reg' [/home/ezequiel/Documentos/FPGA/FPGA2Microarqysoftcore/TP_EURDANIZ/proyecto/project_core_detector/project_core_detector.srcs/sources_1/bd/system/ipshared/f775/src/core_detector.vhd:89]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:33 ; elapsed = 00:00:48 . Memory (MB): peak = 1660.504 ; gain = 433.223 ; free physical = 450 ; free virtual = 5763
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 3     
++---Registers : 
+	               32 Bit    Registers := 3     
+	                4 Bit    Registers := 3     
+	                3 Bit    Registers := 1     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 6     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 2     
+	   4 Input     32 Bit        Muxes := 3     
+	   7 Input      4 Bit        Muxes := 2     
+	   2 Input      3 Bit        Muxes := 1     
+	   8 Input      3 Bit        Muxes := 1     
+	   7 Input      3 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 9     
+	   7 Input      1 Bit        Muxes := 1     
+	   8 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module core_detector 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 3     
++---Registers : 
+	                4 Bit    Registers := 1     
+	                3 Bit    Registers := 1     
++---Muxes : 
+	   7 Input      4 Bit        Muxes := 2     
+	   2 Input      3 Bit        Muxes := 1     
+	   8 Input      3 Bit        Muxes := 1     
+	   7 Input      3 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 4     
+	   7 Input      1 Bit        Muxes := 1     
+	   8 Input      1 Bit        Muxes := 1     
+Module core_detector_ip_v1_0_S_AXI 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 3     
+	                4 Bit    Registers := 2     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 6     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 2     
+	   4 Input     32 Bit        Muxes := 3     
+	   2 Input      1 Bit        Muxes := 5     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 80 (col length:40)
+BRAMs: 120 (col length: RAMB18 40 RAMB36 20)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+WARNING: [Synth 8-3331] design system_core_detector_ip_0_0 has unconnected port s_axi_awprot[2]
+WARNING: [Synth 8-3331] design system_core_detector_ip_0_0 has unconnected port s_axi_awprot[1]
+WARNING: [Synth 8-3331] design system_core_detector_ip_0_0 has unconnected port s_axi_awprot[0]
+WARNING: [Synth 8-3331] design system_core_detector_ip_0_0 has unconnected port s_axi_arprot[2]
+WARNING: [Synth 8-3331] design system_core_detector_ip_0_0 has unconnected port s_axi_arprot[1]
+WARNING: [Synth 8-3331] design system_core_detector_ip_0_0 has unconnected port s_axi_arprot[0]
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (\U0/core_detector_ip_v1_0_S_AXI_inst/aw_en_reg )
+INFO: [Synth 8-3886] merging instance 'U0/core_detector_ip_v1_0_S_AXI_inst/axi_rresp_reg[0]' (FDRE) to 'U0/core_detector_ip_v1_0_S_AXI_inst/axi_rresp_reg[1]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/core_detector_ip_v1_0_S_AXI_inst/axi_rresp_reg[1] )
+INFO: [Synth 8-3886] merging instance 'U0/core_detector_ip_v1_0_S_AXI_inst/axi_bresp_reg[0]' (FDRE) to 'U0/core_detector_ip_v1_0_S_AXI_inst/axi_bresp_reg[1]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\U0/core_detector_ip_v1_0_S_AXI_inst/axi_bresp_reg[1] )
+INFO: [Synth 8-3332] Sequential element (U0/core_detector_ip_v1_0_S_AXI_inst/aw_en_reg) is unused and will be removed from module system_core_detector_ip_0_0.
+INFO: [Synth 8-3332] Sequential element (U0/core_detector_ip_v1_0_S_AXI_inst/axi_bresp_reg[1]) is unused and will be removed from module system_core_detector_ip_0_0.
+INFO: [Synth 8-3332] Sequential element (U0/core_detector_ip_v1_0_S_AXI_inst/axi_araddr_reg[1]) is unused and will be removed from module system_core_detector_ip_0_0.
+INFO: [Synth 8-3332] Sequential element (U0/core_detector_ip_v1_0_S_AXI_inst/axi_araddr_reg[0]) is unused and will be removed from module system_core_detector_ip_0_0.
+INFO: [Synth 8-3332] Sequential element (U0/core_detector_ip_v1_0_S_AXI_inst/axi_awaddr_reg[1]) is unused and will be removed from module system_core_detector_ip_0_0.
+INFO: [Synth 8-3332] Sequential element (U0/core_detector_ip_v1_0_S_AXI_inst/axi_awaddr_reg[0]) is unused and will be removed from module system_core_detector_ip_0_0.
+INFO: [Synth 8-3332] Sequential element (U0/core_detector_ip_v1_0_S_AXI_inst/axi_rresp_reg[1]) is unused and will be removed from module system_core_detector_ip_0_0.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:33 ; elapsed = 00:00:48 . Memory (MB): peak = 1660.504 ; gain = 433.223 ; free physical = 456 ; free virtual = 5773
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:41 ; elapsed = 00:00:59 . Memory (MB): peak = 1660.504 ; gain = 433.223 ; free physical = 257 ; free virtual = 5568
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:41 ; elapsed = 00:00:59 . Memory (MB): peak = 1660.504 ; gain = 433.223 ; free physical = 261 ; free virtual = 5560
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:41 ; elapsed = 00:00:59 . Memory (MB): peak = 1660.504 ; gain = 433.223 ; free physical = 260 ; free virtual = 5549
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:42 ; elapsed = 00:00:59 . Memory (MB): peak = 1660.504 ; gain = 433.223 ; free physical = 260 ; free virtual = 5536
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:42 ; elapsed = 00:00:59 . Memory (MB): peak = 1660.504 ; gain = 433.223 ; free physical = 260 ; free virtual = 5536
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:42 ; elapsed = 00:00:59 . Memory (MB): peak = 1660.504 ; gain = 433.223 ; free physical = 260 ; free virtual = 5536
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:42 ; elapsed = 00:00:59 . Memory (MB): peak = 1660.504 ; gain = 433.223 ; free physical = 260 ; free virtual = 5536
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:42 ; elapsed = 00:00:59 . Memory (MB): peak = 1660.504 ; gain = 433.223 ; free physical = 260 ; free virtual = 5536
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:42 ; elapsed = 00:00:59 . Memory (MB): peak = 1660.504 ; gain = 433.223 ; free physical = 260 ; free virtual = 5536
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |LUT1 |     2|
+|2     |LUT2 |     7|
+|3     |LUT3 |     9|
+|4     |LUT4 |    48|
+|5     |LUT5 |     7|
+|6     |LUT6 |     7|
+|7     |FDRE |   107|
+|8     |FDSE |     5|
+|9     |LD   |     8|
++------+-----+------+
+
+Report Instance Areas: 
++------+-------------------------------------+----------------------------+------+
+|      |Instance                             |Module                      |Cells |
++------+-------------------------------------+----------------------------+------+
+|1     |top                                  |                            |   200|
+|2     |  U0                                 |core_detector_ip_v1_0       |   200|
+|3     |    core_detector_ip_v1_0_S_AXI_inst |core_detector_ip_v1_0_S_AXI |   200|
+|4     |      inst_detec                     |core_detector               |    44|
++------+-------------------------------------+----------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:42 ; elapsed = 00:00:59 . Memory (MB): peak = 1660.504 ; gain = 433.223 ; free physical = 260 ; free virtual = 5536
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 8 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:30 ; elapsed = 00:00:34 . Memory (MB): peak = 1660.504 ; gain = 130.609 ; free physical = 317 ; free virtual = 5593
+Synthesis Optimization Complete : Time (s): cpu = 00:00:42 ; elapsed = 00:00:59 . Memory (MB): peak = 1660.512 ; gain = 433.223 ; free physical = 317 ; free virtual = 5593
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 8 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 8 instances were transformed.
+  LD => LDCE: 8 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+42 Infos, 17 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:44 ; elapsed = 00:01:01 . Memory (MB): peak = 1660.512 ; gain = 452.688 ; free physical = 294 ; free virtual = 5571
+INFO: [Common 17-1381] The checkpoint '/home/ezequiel/Documentos/FPGA/FPGA2Microarqysoftcore/TP_EURDANIZ/proyecto/project_core_detector/project_core_detector.runs/system_core_detector_ip_0_0_synth_1/system_core_detector_ip_0_0.dcp' has been generated.
+INFO: [Coretcl 2-1482] Added synthesis output to IP cache for IP /home/ezequiel/Documentos/FPGA/FPGA2Microarqysoftcore/TP_EURDANIZ/proyecto/project_core_detector/project_core_detector.srcs/sources_1/bd/system/ip/system_core_detector_ip_0_0/system_core_detector_ip_0_0.xci
+INFO: [Coretcl 2-1174] Renamed 3 cell refs.
+INFO: [Common 17-1381] The checkpoint '/home/ezequiel/Documentos/FPGA/FPGA2Microarqysoftcore/TP_EURDANIZ/proyecto/project_core_detector/project_core_detector.runs/system_core_detector_ip_0_0_synth_1/system_core_detector_ip_0_0.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file system_core_detector_ip_0_0_utilization_synth.rpt -pb system_core_detector_ip_0_0_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00.12 ; elapsed = 00:00:00.16 . Memory (MB): peak = 1684.516 ; gain = 0.000 ; free physical = 178 ; free virtual = 5348
+INFO: [Common 17-206] Exiting Vivado at Mon Aug 24 14:41:45 2020...

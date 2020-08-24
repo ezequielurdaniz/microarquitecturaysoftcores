@@ -1,0 +1,46 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.1 (lin64) Build 2188600 Wed Apr  4 18:39:19 MDT 2018
+| Date         : Mon Aug 24 15:09:32 2020
+| Host         : ezequiel-Inspiron-5459 running 64-bit Ubuntu 18.04.4 LTS
+| Command      : report_drc -file system_wrapper_drc_routed.rpt -pb system_wrapper_drc_routed.pb -rpx system_wrapper_drc_routed.rpx
+| Design       : system_wrapper
+| Device       : xc7z010clg400-1
+| Speed File   : -1
+| Design State : Routed
+------------------------------------------------------------------------------------------------------------------------------------
+
+Report DRC
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+           Ruledeck: default
+             Max violations: <unlimited>
+             Violations found: 2
++----------+----------+-------------------+------------+
+| Rule     | Severity | Description       | Violations |
++----------+----------+-------------------+------------+
+| PDRC-153 | Warning  | Gated clock check | 2          |
++----------+----------+-------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+PDRC-153#1 Warning
+Gated clock check  
+Net system_i/core_detector_ip/U0/core_detector_ip_v1_0_S_AXI_inst/inst_detec/contador_sig_1_reg[3]_i_2_n_0 is a gated clock net sourced by a combinational pin system_i/core_detector_ip/U0/core_detector_ip_v1_0_S_AXI_inst/inst_detec/contador_sig_1_reg[3]_i_2/O, cell system_i/core_detector_ip/U0/core_detector_ip_v1_0_S_AXI_inst/inst_detec/contador_sig_1_reg[3]_i_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+PDRC-153#2 Warning
+Gated clock check  
+Net system_i/core_detector_ip/U0/core_detector_ip_v1_0_S_AXI_inst/inst_detec/contador_sig_2_reg[3]_i_2_n_0 is a gated clock net sourced by a combinational pin system_i/core_detector_ip/U0/core_detector_ip_v1_0_S_AXI_inst/inst_detec/contador_sig_2_reg[3]_i_2/O, cell system_i/core_detector_ip/U0/core_detector_ip_v1_0_S_AXI_inst/inst_detec/contador_sig_2_reg[3]_i_2. This is not good design practice and will likely impact performance. For SLICE registers, for example, use the CE pin to control the loading of data.
+Related violations: <none>
+
+

@@ -1,0 +1,9 @@
+vhdl xil_defaultlib  \
+"../../../bd/system/ipshared/f775/hdl/core_detector_ip_v1_0_S_AXI.vhd" \
+"../../../bd/system/ipshared/f775/src/core_detector.vhd" \
+"../../../bd/system/ipshared/f775/hdl/core_detector_ip_v1_0.vhd" \
+"../../../bd/system/ip/system_core_detector_ip_0_0/sim/system_core_detector_ip_0_0.vhd" \
+"../../../bd/system/ip/system_rst_ps7_0_100M_0/sim/system_rst_ps7_0_100M_0.vhd" \
+"../../../bd/system/sim/system.vhd" \
+
+nosort
